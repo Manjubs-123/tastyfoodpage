@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tasty Foods</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg bg-warning fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand text-white fw-bold" href="#">Tasty Foods</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" href="#carouselExampleCaptions">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#order">Orders</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#footer">Location</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search">
+        <button class="btn btn-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<!-- Carousel -->
+<div id="carouselExampleCaptions" class="carousel slide mt-5">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="/images/pic1.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h2>Chinese Foods</h2>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="/images/pic2.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h2>Veg Options</h2>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="/images/pic3.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h2>Non-Veg Options</h2>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!-- Order Section -->
+<div class="container" id="order">
+  <h1 class="text-center my-4">Order Your Foods Now..!</h1>
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+    <!-- Card 1 -->
+    <div class="col">
+      <div class="card h-100 text-center border-2 border-warning">
+        <img src="/images/biriyani.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Biriyani</h5>
+          <p class="card-text">Chicken Biriyani</p>
+          <h5 class="card-title text-danger">Rs: 199.00</h5>
+          <a href="#" class="btn btn-primary">Order Now</a>
+        </div>
+      </div>
+    </div>
+    <!-- Card 2 -->
+    <div class="col">
+      <div class="card h-100 text-center border-2 border-warning">
+        <img src="/images/perotta.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Parotta</h5>
+          <p class="card-text">Parotta Combo</p>
+          <h5 class="card-title text-danger">Rs: 120.00</h5>
+          <a href="#" class="btn btn-primary">Order Now</a>
+        </div>
+      </div>
+    </div>
+    <!-- Card 3 -->
+    <div class="col">
+      <div class="card h-100 text-center border-2 border-warning">
+        <img src="/images/idli.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Idli</h5>
+          <p class="card-text">Tasty Idli</p>
+          <h5 class="card-title text-danger">Rs: 15.00</h5>
+          <a href="#" class="btn btn-primary">Order Now</a>
+        </div>
+      </div>
+    </div>
+    <!-- Card 4 -->
+    <div class="col">
+      <div class="card h-100 text-center border-2 border-warning">
+        <img src="/images/alfam.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Alfam</h5>
+          <p class="card-text">Alfam Mandhi</p>
+          <h5 class="card-title text-danger">Rs: 200.00</h5>
+          <a href="#" class="btn btn-primary">Order Now</a>
+        </div>
+      </div>
+    </div>
+    <!-- Card 5 -->
+    <div class="col">
+      <div class="card h-100 text-center border-2 border-warning">
+        <img src="/images/mandhi.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Chicken Mandhi</h5>
+          <p class="card-text">Juicy Chicken</p>
+          <h5 class="card-title text-danger">Rs: 300.00</h5>
+          <a href="#" class="btn btn-primary">Order Now</a>
+        </div>
+      </div>
+    </div>
+    <!-- Card 6 -->
+    <div class="col">
+      <div class="card h-100 text-center border-2 border-warning">
+        <img src="/images/chickenrice.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Masala Biriyani</h5>
+          <p class="card-text">Home Made Masala</p>
+          <h5 class="card-title text-danger">Rs: 300.00</h5>
+          <a href="#" class="btn btn-primary">Order Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<div class="container-fluid bg-warning mt-5" id="footer">
+  <div class="row p-4">
+    <h1 class="text-center text-white">Location</h1>
+    <div class="col-md-6 text-white">
+      <h2>Tasty Foods Restaurant</h2>
+      <p>Kochi, Kerala</p>
+      <p>Tel: 9080728611</p>
+      <p>Email: tasty@gmail.com</p>
+      <p>Website: www.tasty.com</p>
+    </div>
+    <div class="col-md-6">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d252552.11851413274!2d76.66433368671872!3d8.4870451!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b05bb3396d78f9f%3A0x96658c7f686832ec!2sTrivandrum%20Central%20Railway%20Station!5e0!3m2!1sen!2sin!4v1751022005284!5m2!1sen!2sin" class="w-100" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+  </div>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="/js/bootstrap.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+</body>
+</html>
